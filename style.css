@@ -1,0 +1,171 @@
+*
+{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Roboto' , sans-serif;
+
+}
+section{
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url("imagee.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-left:0px;
+    margin-right:0px;
+
+   
+   }
+
+   .container
+{
+    width:85%;
+   
+
+}
+video{
+   height:100%;
+   width:100%;
+   z-index:-1
+}
+nav{
+    height:80px;
+
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: #eb7620;
+
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+
+    padding: 0px 5px;
+}
+nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius:5px;
+    padding: 7px 8px;
+    
+}
+#nav{
+   height:150px;
+   width:100%;
+   display:flex;
+   justify-content:flex-start;
+   align-items:center;
+   gap:30px;
+   position:fixed;
+   z-index:99;
+   padding-left:550px;
+   text-transform:uppercase;
+   
+}
+h4:hover{
+   color:red;
+   box-shadow:5px 5px rosybrown;
+   font-size:30px;
+   transition:2s
+}
+ a:hover{
+    background-color: #eb7620;
+transition: 2.0s ease;
+font-size:large;
+border-radius:20px;
+background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+animation:slidebg 5s linear infinite;
+color:black;
+}
+ .article{
+
+    width: 50%;
+
+    margin:auto;
+    text-align:center;
+    transform: translateY(25vh);
+ }
+ .article h1{
+    font-size: 36px;
+    color:#fff;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    
+ }
+ .article a
+ {
+    font-size:10px;
+    color:#7e7e7e;
+    line-height:1.5;
+    margin-bottom:50px;
+    
+
+ }
+ .article .btn
+ {
+    color:#fff;
+
+  
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #f15048;
+
+ }
+
+ p
+ {
+    padding-bottom:20px;
+    color:aquamarine
+
+    
+ }
+ 
+ #logo
+ {
+   padding-top:0px;
+   padding-left:0px;
+   height:40px;
+   width:40px;
+
+ }
+
+ #h1
+ {
+    display:inline-block;
+
+ }
+ .btn:hover{
+    
+    color:black;
+    border-radius: 10px;
+    background-color:thistle;
+ }
+ #logo
+ {
+   height:20px;
+   width:20px;
+   display:inline-block;
+ }
+#logo
+{
+   padding-top:20px;
+   padding-left:20px;
+   z-index:0;
+
+   border:3px solid black;
+
+}
+ 
+
